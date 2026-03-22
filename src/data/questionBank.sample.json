@@ -1,0 +1,152 @@
+[
+  {
+    "id": "Q01",
+    "prompt": "朋友凌晨一点突然哭着给你打电话，说她工作彻底崩了，你第一反应是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "先把她情绪接住，哄她把这口气顺下来，再慢慢陪她熬过去。",
+        "weights": {
+          "archetypes": { "gentleSis": 3, "sweetP": 2, "puppy": 1 },
+          "dimensions": { "warmth": 3, "openness": 1 }
+        }
+      },
+      {
+        "label": "B",
+        "text": "立刻帮她把问题拆开，告诉她现在最该做哪三步，先把局面稳住。",
+        "weights": {
+          "archetypes": { "auraT": 2, "wrench": 3 },
+          "dimensions": { "control": 3, "intensity": 1 }
+        }
+      },
+      {
+        "label": "C",
+        "text": "一半一半 / 看情况，先听她讲完，再判断是该抱抱还是该出方案。",
+        "weights": {
+          "archetypes": { "versatileH": 2, "gentleSis": 1 },
+          "dimensions": { "warmth": 2, "control": 2, "openness": 2 }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q02",
+    "prompt": "暧昧对象在晚上 11:30 发来一句“出来吹风吗”，你会：",
+    "options": [
+      {
+        "label": "A",
+        "text": "心里一热就出门，边走边补妆也无所谓，气氛到了就先见面再说。",
+        "weights": {
+          "archetypes": { "puppy": 3, "auraT": 2 },
+          "dimensions": { "intensity": 3, "openness": 2 }
+        }
+      },
+      {
+        "label": "B",
+        "text": "先观察她到底是认真约你，还是一时兴起，不会让自己显得太急。",
+        "weights": {
+          "archetypes": { "wrench": 3, "sweetP": 1 },
+          "dimensions": { "control": 3, "warmth": 1 }
+        }
+      },
+      {
+        "label": "C",
+        "text": "一半一半 / 看情况，先回几句试探下氛围，再决定去不去。",
+        "weights": {
+          "archetypes": { "versatileH": 2, "gentleSis": 1 },
+          "dimensions": { "control": 2, "openness": 2 }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q03",
+    "prompt": "聚会时她很自然地把手搭在你腰上，周围朋友全都看到了，你会：",
+    "options": [
+      {
+        "label": "A",
+        "text": "顺势接住这个动作，甚至更明显一点，让懂的人都懂你们的气场。",
+        "weights": {
+          "archetypes": { "auraT": 2, "gentleSis": 2 },
+          "dimensions": { "intensity": 2, "control": 2, "warmth": 1 }
+        }
+      },
+      {
+        "label": "B",
+        "text": "面上不动声色，但会悄悄把这份亲近留在只有你们知道的节奏里。",
+        "weights": {
+          "archetypes": { "wrench": 3, "sweetP": 1 },
+          "dimensions": { "control": 3, "warmth": 1 }
+        }
+      },
+      {
+        "label": "C",
+        "text": "一半一半 / 看情况，熟人局就松一点，陌生场合还是会收着来。",
+        "weights": {
+          "archetypes": { "versatileH": 3 },
+          "dimensions": { "warmth": 2, "openness": 2 }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q04",
+    "prompt": "半夜刷到她给前任点了赞，你心里开始拧巴时，更像你的是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接问清楚，不拐弯，宁可短暂尴尬也不要自己乱脑补到天亮。",
+        "weights": {
+          "archetypes": { "auraT": 2, "gentleSis": 2 },
+          "dimensions": { "control": 2, "intensity": 2, "warmth": 1 }
+        }
+      },
+      {
+        "label": "B",
+        "text": "表面没反应，心里先记一笔，等自己冷静了再看要不要提。",
+        "weights": {
+          "archetypes": { "wrench": 3 },
+          "dimensions": { "control": 3, "warmth": 1 }
+        }
+      },
+      {
+        "label": "C",
+        "text": "一半一半 / 看情况，如果最近本来就有别扭，我会说；没别的信号就先观察。",
+        "weights": {
+          "archetypes": { "sweetP": 1, "versatileH": 2 },
+          "dimensions": { "warmth": 2, "openness": 2 }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q05",
+    "prompt": "第一次正式约会，你更想把它过成哪种感觉：",
+    "options": [
+      {
+        "label": "A",
+        "text": "提前订好店、路线、结束后的散步点，想让她从头到尾都被稳稳接住。",
+        "weights": {
+          "archetypes": { "gentleSis": 2, "auraT": 2 },
+          "dimensions": { "control": 3, "warmth": 1 }
+        }
+      },
+      {
+        "label": "B",
+        "text": "别排太满，边走边看，最好途中还能临时拐进一家顺眼的小店。",
+        "weights": {
+          "archetypes": { "puppy": 2, "sweetP": 2 },
+          "dimensions": { "intensity": 2, "openness": 2, "warmth": 1 }
+        }
+      },
+      {
+        "label": "C",
+        "text": "一半一半 / 看情况，主线会准备，但也要给当天的心情留空间。",
+        "weights": {
+          "archetypes": { "versatileH": 3 },
+          "dimensions": { "control": 2, "openness": 2 }
+        }
+      }
+    ]
+  }
+]
